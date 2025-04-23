@@ -43,7 +43,7 @@ const EmailAnalyzerCard = () => {
 
         try {
             // Call the backend API
-            const response = await fetch('http://localhost:8000/predict', {
+            const response = await fetch('https://spam-dectetor-backend.onrender.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
