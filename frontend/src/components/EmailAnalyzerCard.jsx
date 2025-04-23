@@ -10,28 +10,6 @@ const EmailAnalyzerCard = () => {
 
 
 
-    // const handleAnalyze = async () => {
-    //     if (!message.trim()) {
-    //         alert('Please enter a message before analyzing.');
-    //         return;
-    //     }
-
-    //     // Mock prediction (replace with real API logic later)
-    //     const prediction = message.includes('free') ? 'Spam' : 'not a Spam';
-
-    //     setResult(prediction);
-    //     setShowResult(true);
-
-    //     setTimeout(() => {
-    //         setMessage('');
-    //     }, 5000);
-
-    //     // Auto-hide result after 5 seconds
-    //     setTimeout(() => {
-    //         setShowResult(false);
-    //     }, 5000);
-    // };
-
 
 
 
@@ -43,7 +21,7 @@ const EmailAnalyzerCard = () => {
 
         try {
             // Call the backend API
-            const response = await fetch('https://spam-dectetor-backend.onrender.com', {
+            const response = await fetch('https://spam-dectetor-backend.onrender.com/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
