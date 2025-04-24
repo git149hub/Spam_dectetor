@@ -99,7 +99,7 @@ const EmailAnalyzerCard = () => {
 
             {showResult && (
                 <div
-                    className={`mt-4 text-lg w-full py-2 font-semibold rounded-md text-center bg-green-700 transition${result === 'Spam' ? 'text-red-500' : 'text-green-500'
+                    className={`mt-4 text-lg w-full py-2 font-semibold rounded-md text-center bg-green-700 transition ${result === 'Spam' ? 'text-red-500' : 'text-green-500'
                         }`}
                 >
                     ✉️ Prediction: {result}
