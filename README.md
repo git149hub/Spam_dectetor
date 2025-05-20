@@ -27,8 +27,8 @@ Designed to help YouTubers and content creators save time and boost creativity.
 ## 🛠 Tech Stack
 
 ### Frontend
-- **React (CRA)**
-- **CSS** (no Tailwind)
+- **React.js**
+- **CSS** 
 - Responsive layout with modern UI
 
 ### Backend
