@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import EmailAnalyzerCard from './components/EmailAnalyzerCard';
-import ThemeToggle from './components/ThemeToggle'; // Uncomment this
+import ThemeToggle from './components/ThemeToggle'; 
 import { ThemeProvider, useTheme } from './context/ThemeContext'; // Add ThemeProvider & useTheme
 import { TypeAnimation } from 'react-type-animation';
 
