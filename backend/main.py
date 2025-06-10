@@ -15,7 +15,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://spam-predictor-yp83.onrender.com"],  # React frontend URL
+    allow_origins=["https://spam-predictor-yp83.onrender.com", "https://spam-dectetor.vercel.app"],  # React frontend URL
     allow_credentials=True,
     allow_methods=["*"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
