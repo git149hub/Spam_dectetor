@@ -20,25 +20,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* --body_background: white;
-  --body_color:black;
-  --link_color:navy; */
+ 
 }
-
-/* [data-theme="dark"]{
-  --body_background:#282c34;
-  --body_color:white;
-  --link_color:cyan;
-} */
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-} */
 
 body {
   margin: 0;
